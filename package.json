@@ -18,10 +18,7 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0",
-    "koa-webpack-dev-middleware": "^2.0.2",
-    "koa-webpack-hot-middleware": "^1.0.3",
-    "webpack": "^5"
+    "eslint-config-egg": "^7.1.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -53,5 +50,10 @@
   },
   "homepage": "https://github.com/eggjs/egg-webpack#readme",
   "author": "zr",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "koa-webpack-hot-middleware": "^1.0.3",
+    "webpack": "^5.74.0"
+  }
 }
