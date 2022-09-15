@@ -52,7 +52,7 @@
   "author": "zr",
   "license": "MIT",
   "dependencies": {
-    "koa-webpack-dev-middleware": "^2.0.2",
+    "koa-webpack-dev-middleware": "git+https://github.com/frontoldman/koa-webpack-dev-middleware.git",
     "koa-webpack-hot-middleware": "^1.0.3",
     "webpack": "^5.74.0"
   }
